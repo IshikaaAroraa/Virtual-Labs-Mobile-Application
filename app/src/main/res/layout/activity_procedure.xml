@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProcedureActivity">
+
+    <TextView
+        android:id="@+id/txtProcedure"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#A14D4D"
+        android:backgroundTint="#253870"
+        android:gravity="center"
+        android:text="PROCEDURE"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txtdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProcedure"
+        android:layout_marginTop="5dp"
+        android:padding="15sp"
+        android:text="1. Wrap the copper wire tightly around the cardboard tube to create a solenoid.
+\n\n2. Connect each loose end of the wire to the positive and negative terminals of the galvanometer.
+\n\n3. Insert the magnet inside the cardboard tube and move it around,Try moving the magnet faster or slower.
+\n\n4. Reduce the number of turns in the solenoid and insert the magnet inside the cardboard tube and move it around again."
+        android:textColor="#787373"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtdetail"
+        android:layout_marginTop="-3dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Click below to start the video"
+        android:textAlignment="center"
+        android:textColor="#6A2C2C"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_200"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu"
+        android:layout_alignParentBottom="true"
+        />
+
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_below="@id/txtProcedure"
+
+
+        android:layout_marginTop="326dp" />
+
+
+</RelativeLayout>

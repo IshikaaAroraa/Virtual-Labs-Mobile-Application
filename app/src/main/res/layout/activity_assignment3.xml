@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Assignment3Activity">
+
+    <TextView
+        android:id="@+id/txtAssignment3"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#A14D4D"
+        android:backgroundTint="#253870"
+        android:gravity="center"
+        android:text="ASSIGNMENT"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtAssignment3"
+        android:layout_marginTop="71dp"
+        android:padding="15sp"
+        android:text="1. What is Fermi level?
+        \n\n2. Differentiate semiconductors, conductors and insulators on the basis of band gap.
+        \n\n3. In which band do the movement of electrons and holes takes place?
+        \n\n4. What is the amount of energy that Valence electron must have in order to jump from Valence band to conduction band ?
+        \n\n5. How can a bandgap be created?
+
+
+       "
+        android:textColor="#787373"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_200"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu4"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F4F4"
+    android:backgroundTint="@color/white"
+    tools:context=".FaradayActivity">
+
+    <TextView
+        android:id="@+id/txtTheory"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#A14D4D"
+        android:backgroundTint="#253870"
+        android:gravity="center"
+        android:text="THEORY"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTheory"
+        android:layout_marginTop="39dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15sp"
+
+        android:text="Faraday's law of electromagnetic induction(referred to as Faraday's law) is a basic law of electromagnetism predicting how a magnetic field will interact with an electric circuit to produce an electromotive force(EMF).
+\n\nAny change in the magnetic field of a coil of wire will cause an emf to be induced in the coil. This emf induced is called induced emf and if the conductor circuit is closed, the current will also circulate through the circuit and this current is called induced current.
+\n\nIn this experiment, Faraday takes a magnet and a coil and connects a galvanometer across the coil. At starting, the magnet is at rest, so there is no deflection in the galvanometer i.e the needle of the galvanometer is at the center or zero position. "
+        android:textAlignment="gravity"
+        android:textColor="#787373"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/purple_200"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu" />
+
+
+</RelativeLayout>

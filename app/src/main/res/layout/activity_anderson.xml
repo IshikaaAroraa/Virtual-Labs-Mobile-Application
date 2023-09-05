@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8ADAD"
+    android:backgroundTint="@color/white"
+    tools:context=".AndersonActivity">
+
+    <TextView
+        android:id="@+id/txtTheory"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#A14D4D"
+        android:backgroundTint="#253870"
+        android:gravity="center"
+        android:text="THEORY"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtTheory"
+        android:layout_marginTop="49dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15sp"
+        android:text="AC bridges are often used to measure the value of unknown impedance (self/mutual inductance of inductors or capacitance of capacitors accurately).\n\nA large number of AC bridges are available and Anderson's Bridge is an AC bridge used to measure self inductance of the coil. It is a modification of Wheatstones Bridge. It enables us to measure the inductance of a coil using capacitor and resistors and does not require repeated balancing of the bridge.
+        \n\nThe bridge is balanced by a steady current by replacing the headphone H by moving coil galvanometer and A.C source by a battery.
+        \n\nThis is done by adjusting the variable resistance, r."
+        android:textAlignment="gravity"
+        android:textColor="#787373"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/purple_200"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu2" />
+
+
+</RelativeLayout>

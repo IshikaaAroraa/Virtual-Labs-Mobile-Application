@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BeamActivity">
+
+    <TextView
+        android:id="@+id/txtTheory"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#A14D4D"
+        android:backgroundTint="#253870"
+        android:gravity="center"
+        android:text="THEORY"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtTheory"
+        android:layout_marginTop="48dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15sp"
+        android:text="When a beam is subjected to a couple it bends. The filaments lying on the inner or the concave side gets compressed while those lying on the outer or the convex side get elongated.
+        \n\nIn between these two portions, there is layer in which the filaments are neither compressed nor elongated. It is called the neutral surface.
+
+
+        \n\nThe curvature changes along the length of the beam being zero at the origin O, where the beam is fixed.
+        \n\nY = [Mgl]3/(4[bd]3 e)
+\n\nY is the Young’s Modulus in dynes per sq. cm, e is depression measured in cm, M is mass of load in gm, g is acceleration due to gravity in [cm/sec]3, l,b,d are respective length of bar between knife edges, breadth and thickness measured in cm."
+
+        android:textAlignment="gravity"
+        android:textColor="#787373"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/purple_200"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu3" />
+
+</RelativeLayout>
+

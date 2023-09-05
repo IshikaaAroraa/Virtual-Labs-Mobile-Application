@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BangapActivity">
+
+    <TextView
+        android:id="@+id/txtTheory"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#A14D4D"
+        android:backgroundTint="#253870"
+        android:gravity="center"
+        android:text="THEORY"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtTheory"
+        android:layout_marginTop="220dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15sp"
+        android:text="A semi conductor doped or undoped always possesses on energy gap between its conduction and valence bands .
+        \n\nFor conduction of electricity a certain amount of energy is to be given to the e-,so that it goes from the valence band to the conduction band.
+        \n\nThis energy so needed is the measure of the energy gap between the 2 bands.
+\n\nThe reverse current Is(Saturated value) is function of the temperature of the junction diode and varies according to the following relation:
+    \n\nLog Is = log Ae[Nn Np {Vn / Pp+} Vp / Nn} exp (-e ?E /]KT ) ..............(1)
+    \n\nFor small range of temperature relation (1) can be put as log Is = Constant - 5.036 ?E (103/T)
+
+"
+        android:textAlignment="gravity"
+        android:textColor="#787373"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/purple_200"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu4" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_above="@+id/bottom_navigator"
+        android:layout_marginBottom="403dp"
+        app:srcCompat="@drawable/bandgap" />
+
+
+</RelativeLayout>

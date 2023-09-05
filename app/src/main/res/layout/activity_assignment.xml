@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssignmentActivity">
+
+    <TextView
+        android:id="@+id/txtAssignment"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#A14D4D"
+        android:backgroundTint="#253870"
+        android:gravity="center"
+        android:text="ASSIGNMENT"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtAssignment"
+        android:layout_marginTop="71dp"
+        android:padding="15sp"
+        android:text="1. What is electromagnetic Induction?
+        \n\n2. What is a galvanometer?
+        \n\n3. AC generators works on which principle?
+        \n\n4. In the absence of a galvanometer, how would you demonstrate the presence of an induced current?
+        \n\n5. What happens if a coil and a magnet move in the same direction and same speed?"
+        android:textColor="#787373"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_200"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

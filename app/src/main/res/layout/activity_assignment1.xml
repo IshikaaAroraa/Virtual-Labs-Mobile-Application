@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Assignment1Activity">
+
+    <TextView
+        android:id="@+id/txtAssignment1"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#A14D4D"
+        android:backgroundTint="#253870"
+        android:gravity="center"
+        android:text="ASSIGNMENT"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtAssignment1"
+        android:layout_marginTop="55dp"
+        android:padding="15sp"
+        android:text="1. Calculate the self inductance of a coil having length 10cm and diameter 5mm. There are 1000 turns/length (m) in the coil, apply balancing condition using resistors and capacitor for frequency of 20Hz at different voltages?
+        \n\n2. A coil having length and diameter 30cm, 6mm respectively. Number of turns will 1000/unit length (m) and calculate the inductance of a coil at a frequency of 100Hz.
+        \n\n3. Calculate the inductive reactance and self inductance of a coil having length 25 cm and diameter 5mm. The applied frequency is 100Hz.
+        \n\n4. Obtain balancing condition for Anderson's bridge and find the inductance of a coil having length 15 cm and diameter 8mm?
+
+
+       "
+        android:textColor="#787373"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#978F8F"
+        app:itemBackground="@color/purple_200"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu2" />
+
+</RelativeLayout>

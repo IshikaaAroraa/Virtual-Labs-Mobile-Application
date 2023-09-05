@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/theory1"
+        android:title="Theory"
+        android:icon="@drawable/ic_baseline_text_snippet_24"
+        />
+
+    <item
+        android:id="@+id/procedure1"
+        android:title="Procedure"
+        android:icon="@drawable/ic_procedure"
+        />
+
+    <item
+        android:id="@+id/assignment1"
+        android:title="Assignment"
+        android:icon="@drawable/ic_assignment"
+        />
+</menu>

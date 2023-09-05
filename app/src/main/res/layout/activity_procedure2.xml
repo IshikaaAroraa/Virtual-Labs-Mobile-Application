@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Procedure2Activity">
+
+    <TextView
+        android:id="@+id/txtProcedure"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#A14D4D"
+        android:backgroundTint="#253870"
+        android:gravity="center"
+        android:text="PROCEDURE"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txtdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProcedure"
+        android:layout_marginTop="1dp"
+        android:padding="15sp"
+        android:text="1. Place the rectangular bar on the two knife edges symmetrically.
+        \n\n2. The two end portions of the bar which remain projecting beyond the knife edges should be equal.
+        \n\n3. Place the bar in such a way that the depth remains vertical and its length is perpendicular to the two knife edges.
+
+         \n\n4. Knowing all the necessary things, calculate Y by formula.
+"
+        android:textColor="#787373"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtdetail"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Click below to start the video"
+        android:textAlignment="center"
+        android:textColor="#6A2C2C"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/purple_200"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu3" />
+
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="match_parent"
+        android:layout_height="369dp"
+        android:layout_below="@id/txtProcedure"
+
+
+        android:layout_marginTop="298dp" />
+</RelativeLayout>
+

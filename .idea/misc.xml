@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/drawable/button.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/drawable/button2.xml" value="0.2265" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/drawable/button3.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/drawable/button5.xml" value="0.13" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/drawable/button6.xml" value="0.13" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/drawable/button7.xml" value="0.13" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/drawable/selector.xml" value="0.13" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_anderson.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_assignment.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_assignment1.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_assignment2.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_assignment3.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_bangap.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_beam.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_experiment.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_faraday.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_login.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_login2.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_main1.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_procedure.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_procedure1.xml" value="0.2359375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_procedure2.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_procedure3.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_quiz.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_second.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/layout/score_bottom_sheet.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/menu/menu.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/menu/menu2.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/menu/menu3.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/menu/menu4.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.121" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/VirtualLabs/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.121" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

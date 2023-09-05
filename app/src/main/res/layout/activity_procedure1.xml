@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Procedure1Activity">
+
+    <TextView
+        android:id="@+id/txtProcedure1"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#A14D4D"
+        android:backgroundTint="#253870"
+        android:gravity="center"
+        android:text="PROCEDURE"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txtdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProcedure1"
+        android:layout_marginTop="1dp"
+        android:padding="15sp"
+        android:text="1. Power on the switch of signal generator and apply particular Voltage and frequency.
+\n\n2. Select particular length for inductance coil and diameter for core.
+\n\n3. Give a particular resistance value for P resistance box and other value of resistances in Q, R and S will automatically appear.
+\n\n4. Note the value of r, where the voltage in CRO becomes zero is the balancing condition."
+        android:textColor="#787373"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtdetail"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Click below to start the video"
+        android:textAlignment="center"
+        android:textColor="#6A2C2C"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#978F8F"
+        android:backgroundTint="#978F8F"
+        app:itemBackground="@color/purple_200"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu2" />
+
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_below="@id/txtProcedure1"
+
+
+        android:layout_marginTop="288dp" />
+</RelativeLayout>
